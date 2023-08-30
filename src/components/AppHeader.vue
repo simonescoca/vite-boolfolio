@@ -40,6 +40,5 @@
 </script>
 
 <style lang="scss" scoped>
-	@use "../styles/variables";
-	@use "../styles/mixins";
+
 </style>
