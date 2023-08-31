@@ -1,13 +1,13 @@
 <template>
 	<AppHeader />
-	<AppMain />
+	<router-view>
+	</router-view>
 	<AppFooter />
 </template>
 
 <script>
-  	import AppHeader from './components/AppHeader.vue'
-  	import AppMain from './components/AppMain.vue'
- 	import AppFooter from './components/AppFooter.vue'
+  	import AppHeader from './components/AppHeader.vue';
+ 	import AppFooter from './components/AppFooter.vue';
 	// import {store} from "../store.js";
 	// import axios from "axios";
 
@@ -20,7 +20,6 @@
 
 		components: {
 			AppHeader,
-			AppMain,
 			AppFooter
 		},
 
