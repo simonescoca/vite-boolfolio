@@ -1,8 +1,8 @@
 <template>
-	<footer>
-		<h3>
-			AppFooter
-		</h3>
+	<footer class="d-flex justify-content-center align-items-center">
+		<p class="m-auto">
+			footer footer footer footer footer footer footer footer footer footer footer footer footer footer
+		</p>
 	</footer>
 </template>
 
@@ -40,5 +40,13 @@
 </script>
 
 <style lang="scss" scoped>
-
+	footer {
+		background-color: rgb(26, 26, 26);
+		color: rgb(153, 153, 153);
+		height: 3rem;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
 </style>
